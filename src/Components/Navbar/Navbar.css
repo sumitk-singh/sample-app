@@ -1,5 +1,10 @@
 /* color variables */
-
+:root{
+    --color-primary:#5856CE;
+    --color-primary-hover: #6a69d4;
+    --color-secondary:black;
+    --color-white:#ffffff;
+}
 
 /* ... */
 
@@ -24,13 +29,16 @@ li {
 
 ul>li>a {
     text-decoration: none;
-    color: black;
+    color: var(--color-secondary);
+}
 
+ul>li>a:hover {
+    color: var(--color-primary);
+    transition: color 0.5s ;
 }
 
 .left-side-nav-items {
     display: flex;
-
     gap: 1rem;
     margin-top: 2.5rem;
     margin-left: 9rem;
@@ -47,34 +55,41 @@ ul>li>a {
 
 .primary {
     padding: 10px;
-    color: white;
-    background-color: #5856CE;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
     border-radius: 4px;
 }
 
+.primary:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary-hover);
+   transition: background 0.5s;
+}
 .secondary {
     padding: 10px;
-    color: #5856CE;
-    border: 1px solid #5856CE;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
     border-radius: 4px;
+}
+
+.secondary:hover{
+    color: var(--color-white);
+    background-color: var(--color-primary);
 }
 
 /* ----------- */
 
 @media only screen and (max-width: 600px) {
-
-    .left-side-nav-items{
-       display: none;
-      
+    .left-side-nav-items {
+        display: none;
     }
-    
-   .login{
-    display: none;
-   }
 
-   .secondary{
-    display: none;
-   }
-
- 
+    .login {
+        display: none;
     }
+
+    .secondary {
+        display: none;
+    }
+}

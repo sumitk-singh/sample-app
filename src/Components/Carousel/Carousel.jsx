@@ -18,7 +18,7 @@ const Carousel = () => {
 
                     <div className="carousel-container-left-bottom-side">
                         <div>
-                           <img src={double_logo} alt="" />
+                           <img className="carousel-left-logo" src={double_logo} alt="" />
                         </div>
                         <div className="line">
 
