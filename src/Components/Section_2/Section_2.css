@@ -1,0 +1,40 @@
+.section_2 {
+    margin-top: 5rem;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(180deg, rgba(235, 246, 255, 0) -12.61%, #EBF6FF 50.78%, rgba(235, 246, 255, 0) 114.7%);
+
+}
+
+.section_2_sub_container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+.card-group {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: 2rem;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    padding: 1rem;
+    letter-spacing: 0.01em;
+}
+
+@media only screen and (max-width: 600px) {
+   .card-group{
+    display: flex;
+    flex-direction: column;
+   }
+
+}

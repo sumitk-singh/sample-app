@@ -1,0 +1,62 @@
+/* color variables */
+
+
+/* ... */
+
+.logo {
+    position: absolute;
+    width: 128.06px;
+    height: 60px;
+    left: 39px;
+    top: 21px;
+}
+
+.navbar {
+    display: flex;
+    width: fit-content;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.left-side-nav-items {
+    display: flex;
+
+    gap: 1rem;
+    margin-top: 2.5rem;
+    margin-left: 9rem;
+    width: 100%;
+}
+
+.right-side-nav-items {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    margin-left: 10rem;
+    width: 100%;
+}
+
+.primary {
+    padding: 10px;
+    color: white;
+    background-color: #5856CE;
+    border-radius: 4px;
+}
+
+.secondary {
+    padding: 10px;
+    color: #5856CE;
+    border: 1px solid #5856CE;
+    border-radius: 4px;
+}
+
+/* ----------- */

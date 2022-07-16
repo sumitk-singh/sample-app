@@ -1,0 +1,33 @@
+.section_1 {
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.left-section_1 {
+    width: 100%;
+    margin-right: 5rem;
+}
+
+.right-section_1 {
+    width: 100%;
+}
+
+
+.color-primary {
+    color: #5856CE;
+}
+
+
+.cta-primary {
+    padding: 10px;
+    color: white;
+    background-color: #5856CE;
+    border-radius: 4px;
+    border: none;
+}
+
+.section_1-img{
+    height: 20rem;
+    width: auto;
+}
