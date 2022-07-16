@@ -60,3 +60,21 @@ ul>li>a {
 }
 
 /* ----------- */
+
+@media only screen and (max-width: 600px) {
+
+    .left-side-nav-items{
+       display: none;
+      
+    }
+    
+   .login{
+    display: none;
+   }
+
+   .secondary{
+    display: none;
+   }
+
+ 
+    }

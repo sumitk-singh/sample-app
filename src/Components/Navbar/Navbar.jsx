@@ -32,7 +32,7 @@ const Navbar = () => {
                 <div  className="right-side-group">
                     <ul  className="right-side-nav-items">
                         <li>
-                            <a href="">Log in</a>
+                            <a className="login" href="">Log in</a>
                         </li>
                         <li>
                             <a className="secondary" href="">SCHEDULE DEMO</a>
